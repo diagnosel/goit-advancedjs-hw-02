@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise generator</title>
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-02/assets/favicon-VBSfsQCP.svg" />
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-CHbeHdAg.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-DRAOUfWK.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/styles-ZG5qurMK.css">
+  </head>
+  <body>
+    <main class="task-page">
+      <a class="back-link" href="./index.html">Back to tasks</a>
+      <h1>Promise generator</h1>
+
+      <form class="form">
+        <label class="delay-field">
+          Delay (ms)
+          <input type="number" name="delay" min="0" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+    </main>
+
+  </body>
+</html>
